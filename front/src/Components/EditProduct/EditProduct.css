@@ -1,0 +1,32 @@
+
+.edit__heading {
+    padding: 50px 0 25px 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #414141;
+    text-align: center;
+}
+
+.edit__first-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.edit__input {
+    width: 500px;
+}
+
+.edit__input > label {
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.edit__input > input {
+    width: 100%;
+    padding: 10px;
+}

@@ -1,0 +1,48 @@
+
+.dashboard__heading {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #414141;
+    text-align: center;
+    padding: 50px 0 25px 0;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 150px;
+}
+
+.product-card {
+    width: 250px;
+    border: thin solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.product__info {
+    margin: 0 15px;
+}
+
+.product__info > h3 {
+    margin: 5px 0;
+}
+
+.prices > h4 {
+    margin: 0;
+}
+
+.product__image {
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.prices {
+    margin: 10px 0;
+}
+
+.product__description {
+    margin: 15px 0;
+}
